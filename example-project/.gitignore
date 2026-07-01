@@ -1,2 +1,5 @@
 dist/
 node_modules/
+playwright/.last-run.json
+test-results/
+playwright-report/
