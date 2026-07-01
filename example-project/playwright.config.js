@@ -1,5 +1,6 @@
 const { defineConfig } = require('@playwright/test');
-export default defineConfig({
+
+module.exports = defineConfig({
   webServer: {
     command: 'npm run start',
     url: 'http://localhost:8080',

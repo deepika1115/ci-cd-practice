@@ -83,5 +83,14 @@ module.exports = [
       ...globals.jest
     }
   }
+},
+{
+  files: ['playwright.config.js', 'e2e-tests/**/*.js', '**/*.spec.js'],
+  languageOptions: {
+    sourceType: 'commonjs',
+    globals: {
+      ...globals.node
+    }
+  }
 }
 ]
